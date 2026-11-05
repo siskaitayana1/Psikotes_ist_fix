@@ -108,7 +108,7 @@ def load_results_data(file_path):
         return pd.read_csv(file_path, sep=';')
     return pd.DataFrame()
 
-# --- KUNCI JAWABAN RESMI SUBTES 1, 2, 3, 5, 6, 7, 8, 9 ---
+# --- KUNCI JAWABAN RESMI SUBTES 1 S.D. 9 ---
 ANSWER_KEYS_MC = {
     # Subtes 1
     1: "e) kewibawaan", 2: "c) boros", 3: "d) gempa bumi", 4: "d) khianat", 5: "d) kuku",
